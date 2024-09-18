@@ -41,7 +41,7 @@ int main(){
 
 
 	printf("Provide character:\n");
-	scanf("%c",&var4);
+	scanf(" %c",&var4);
 	char compareChar = 'a';
 
 	if(var4 == compareChar){

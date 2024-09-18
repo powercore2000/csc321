@@ -5,7 +5,7 @@ int main(){
 	int var1 = 0;
 	double var2 = 0.02;
 	float var3 = 0.1;
-	char var4[] = "hello";
+	char var4 = 'a';
 
 	printf("Provide integer:\n");
 	scanf("%d",&var1);
@@ -41,14 +41,14 @@ int main(){
 
 
 	printf("Provide character:\n");
-	scanf("%s",&var4);
-	char compareString[] = "hello"
+	scanf("%c",&var4);
+	char compareChar = 'a';
 
-	if(var4 == compareString){
-		printf("Your input IS equal to a %s \n",compareString);
+	if(var4 == compareChar){
+		printf("Your input IS equal to a %c \n",compareChar);
 	}
 	else{
-		printf("Your input is NOT equal to %s \n Found Instead: %s \n",compareString, var4);
+		printf("Your input is NOT equal to %c \n Found Instead: %c \n",compareChar, var4);
 	}
 
 	0;

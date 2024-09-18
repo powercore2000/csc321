@@ -3,14 +3,14 @@
 int main(){
 
 	int var1 = 0;
-	bool var2 = true;
+	double var2 = 0.02;
 	float var3 = 0.1;
 	char var4 = 'a';
 
-	printf("Provide integer:")
+	printf("Provide integer:");
 	scanf("%d",&var1);
 
-	if(x == 5){
+	if(var1 == 5){
 		printf("Your input IS equal to 5 \n");
 	}
 	else{
